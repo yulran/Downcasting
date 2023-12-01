@@ -120,7 +120,9 @@ public static void cookDish(Dish dish){
         }
         if (dish instanceof Steak){
             ((Steak)dish).season();
+
         }
+        System.out.println("dish is prepering");
 }
 }
 
